@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/D%3A/Documents+and+Settings/cmaceochaidh/My+Documents/NetBeansProjects/HttpTest/dist/" href="HttpTest_browser.jnlp">
+    <information>
+        <title>HttpTest</title>
+        <vendor>${application.vendor}</vendor>
+        <homepage href="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/D%3A/Documents+and+Settings/cmaceochaidh/My+Documents/NetBeansProjects/HttpTest/dist/"/>
+        <description>HttpTest</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="HttpTest.jar" main="true"/>
+    </resources>
+    <applet-desc name="HttpTest" main-class="com.sun.javafx.runtime.adapter.Applet" width="200" height="200">
+        <param name="MainJavaFXScript" value="httptest.Main"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>
