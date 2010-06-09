@@ -15,7 +15,7 @@ import javafx.scene.image.ImageView;
 import javafx.animation.transition.RotateTransition;
 
 def testContent: String = "requestEnvelope.errorLanguage=en_US&baseAmountList.currency(0).code=USD&baseAmountList.currency(0).amount=10&convertToCurrencyList.currencyCode(0)=AUD";
-var response = "Click to send";
+var response = "test";
 
 def postRequest: HttpRequest = HttpRequest {
 
