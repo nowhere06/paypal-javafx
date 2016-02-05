@@ -1,0 +1,1 @@
+This project will provide sample code for and a library for using PayPal adaptive payments with JavaFX
